@@ -29,6 +29,9 @@ function calculateMinCost() {
 		insertCost(arr , cost);
 	}
 
-	return totalCost;
+	let display = document.getElementById("result");
+	display.InnerText = totalCost;
 	
 }  
+
+
